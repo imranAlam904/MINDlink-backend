@@ -1,0 +1,12 @@
+{
+  "name": "lyra-backend",
+  "version": "1.0.0",
+  "main": "assistant.js",
+  "scripts": {
+    "start": "node assistant.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "node-fetch": "^3.3.1"
+  }
+}
