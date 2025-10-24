@@ -1,6 +1,8 @@
 {
   "name": "lyra-backend",
   "version": "1.0.0",
+  "description": "NVIDIA-powered Lyra voice assistant backend",
+  "type": "module",
   "main": "assistant.js",
   "scripts": {
     "start": "node assistant.js"
@@ -8,5 +10,10 @@
   "dependencies": {
     "express": "^4.18.2",
     "node-fetch": "^3.3.1"
-  }
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "author": "Imran",
+  "license": "MIT"
 }
