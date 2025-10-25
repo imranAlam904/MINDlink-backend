@@ -2,9 +2,9 @@
   "name": "mindlink-backend",
   "version": "1.0.0",
   "type": "module",
-  "main": "assistant.js",
+  "main": "mindlink.js",
   "scripts": {
-    "start": "node assistant.js"
+    "start": "node mindlink.js"
   },
   "dependencies": {
     "express": "^4.18.2",
@@ -12,3 +12,4 @@
     "cors": "^2.8.5"
   }
 }
+
